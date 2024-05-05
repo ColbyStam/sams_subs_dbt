@@ -1,0 +1,12 @@
+version: 2
+
+sources:
+  - name: insurance_landing
+    database: colbystam
+    schema: insurance
+    tables:
+      - name: agentpolicy
+      - name: agents
+      - name: claims
+      - name: customers
+      - name: policies
