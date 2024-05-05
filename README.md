@@ -246,7 +246,7 @@ CROSS JOIN {{ ref('ss_dim_store') }} s
 
 
 
-## Create a semantic layer model (2 points of EC!)
+## Create a semantic layer model
 - Create a model that can query from the data warehouse we just built and reference upstream models.
 - Create a new file called `ss_semantic.sql` inside of the sams subs directory.
 - Basically, your code will create a new table that will be a semantic layer that is easy for consumption. The table should include key information that an analyst could easily pull from to run quick analysis. 
